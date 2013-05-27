@@ -1,4 +1,10 @@
 SiestaRemote::Application.configure do
+  require 'pusher'
+
+  Pusher.app_id = '44695'
+  Pusher.key = '302fb53f53282bcb6c79'
+  Pusher.secret = 'cb4a024685bb466d7f24'
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
