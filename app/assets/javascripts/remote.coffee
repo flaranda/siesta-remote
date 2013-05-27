@@ -15,15 +15,15 @@ $( document ).ready ->
   @channel.trigger( "client-movement", movement )
 
 @configure_buttons = () ->
-  $( '#movement_red' ).click ->
+  $( '#red' ).click ->
     send_trigger( 'red' )
-  $( '#movement_blue' ).click ->
+  $( '#blue' ).click ->
     send_trigger( 'blue' )
-  $( '#movement_yellow' ).click ->
+  $( '#yellow' ).click ->
     send_trigger( 'yellow' )
-  $( '#movement_green' ).click ->
+  $( '#green' ).click ->
     send_trigger( 'green' )
-  $( '#movement_white' ).click ->
+  $( '#white' ).click ->
     send_trigger( 'white' )
-  $( '#movement_black' ).click ->
+  $( '#black' ).click ->
     send_trigger( 'black' )
